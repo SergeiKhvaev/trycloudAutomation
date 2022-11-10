@@ -1,6 +1,6 @@
 Feature: as a user, I should be able to log in
 
-@lodinValidCredentials
+
   Scenario Outline: Verify login with valid credentials with DDT
     Given user on the login page
     When user use enter "<username>" and enter "<password>"
