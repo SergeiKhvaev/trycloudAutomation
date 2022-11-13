@@ -13,7 +13,7 @@ SearchWindow_Page searchWindow_page = new SearchWindow_Page();
     //}
     @When("the user clicks the magnifier icon on the right top")
     public void the_user_clicks_the_magnifier_icon_on_the_right_top() {
-        searchWindow_page.searchBox.click();
+        searchWindow_page.magnifyBtn.click();
 
 
     }
