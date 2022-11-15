@@ -1,7 +1,7 @@
 Feature: Verify users to see the app storage usage
 Background: login to page
 
-
+@wip
 Scenario Outline: Verify users to see the app storage usage
   Given user on the login page
   When user use enter "<username>" and enter "<password>"

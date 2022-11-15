@@ -17,7 +17,7 @@ public class AppStorageUsagePage {
     @FindBy(xpath = "//span[@class='icon icon-add']")
     public WebElement clickFileButton;
 
-    @FindBy(xpath = "(//span[@class='displayname'])[1]")
+    @FindBy(xpath = "//label[@class='menuitem']")
     public WebElement userUploadsFile;
 
     @FindBy (xpath = "//span[@class='icon icon-add']")

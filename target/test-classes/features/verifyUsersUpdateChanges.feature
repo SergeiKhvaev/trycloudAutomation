@@ -3,7 +3,7 @@ Feature: As a user, I should be able to update settings.
   Background: login to page
 
 
-@wip
+
 Scenario Outline: Verify users update settings
   Given user on the login page
   When user use enter "<username>" and enter "<password>"
