@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/tryCloud/steps_definitions",
         dryRun = false,
-        tags = "@deleteFile",
+        tags = "@files",
         publish = true
 
 )
