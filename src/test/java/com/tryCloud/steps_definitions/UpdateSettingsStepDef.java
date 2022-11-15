@@ -1,4 +1,5 @@
 package com.tryCloud.steps_definitions;
+import com.tryCloud.pages.BasePageLogin;
 import com.tryCloud.pages.UpdateChangesPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -7,6 +8,7 @@ import io.cucumber.java.en.When;
 public class UpdateSettingsStepDef {
 
 UpdateChangesPage updateChangesPage = new UpdateChangesPage();
+
     @Given("user on the dashboard page")
     public void user_on_the_dashboard_page() {
 

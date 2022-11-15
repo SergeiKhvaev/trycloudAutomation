@@ -14,7 +14,5 @@ Then the user should be able to see storage usage is increased
 
   Examples:
     | username | password    |
-    | User23   | Userpass123 |
-    | User53   | Userpass123 |
-    | User83   | Userpass123 |
     | User113  | Userpass123 |
+

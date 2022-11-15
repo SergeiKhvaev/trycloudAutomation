@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>09 Nov 2022, 15:48</td>
+      <td>09 Nov 2022, 16:19</td>
     </tr>
   </tbody>
 </table>
@@ -127,19 +127,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">As a user, I should be able to update settings.</td>
-          <td      class="passed"    >24</td>
-          <td >0</td>
+          <td      class="passed"    >22</td>
+          <td      class="failed"    >2</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">24</td>
 
-          <td  class="passed"    >4</td>
-          <td >0</td>
+          <td  class="passed"    >2</td>
+          <td  class="failed"    >2</td>
           <td class="total">4</td>
 
-          <td class="duration" data-value="46522149300">46.522</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="194224973400">3:14.224</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -171,7 +171,7 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
   <span class="name">As a user, I should be able to update settings.</span>
 
@@ -245,12 +245,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">12.724</span>
+  <span class="lead-duration duration">19.701</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-3">
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-3">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Verify users update settings</span>
 
@@ -261,16 +261,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-3" class="collapse collapsable-details ">
+  <div id="element-3" class="collapse collapsable-details  in ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-4">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-4">
 
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -280,7 +280,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-4" class="inner-level collapse collapsable-details ">
+  <div id="steps-4" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -288,7 +288,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user on the login page</span>
 
-  <span class="lead-duration duration">3.578</span>
+  <span class="lead-duration duration">8.711</span>
 
 </div>
 
@@ -315,7 +315,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user use enter <span class="argument">&quot;User23&quot;</span> and enter <span class="argument">&quot;Userpass123&quot;</span></span>
 
-  <span class="lead-duration duration">6.356</span>
+  <span class="lead-duration duration">6.628</span>
 
 </div>
 
@@ -342,7 +342,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user on the dashboard page</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.005</span>
 
 </div>
 
@@ -369,7 +369,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">the user clicks the <span class="argument">&quot;Files&quot;</span> module</span>
 
-  <span class="lead-duration duration">2.660</span>
+  <span class="lead-duration duration">3.186</span>
 
 </div>
 
@@ -396,7 +396,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks Settings on the left bottom corner</span>
 
-  <span class="lead-duration duration">0.069</span>
+  <span class="lead-duration duration">0.077</span>
 
 </div>
 
@@ -419,11 +419,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">the user should be able to click any buttons</span>
 
-  <span class="lead-duration duration">0.058</span>
+  <span class="lead-duration duration">1.093</span>
 
 </div>
 
@@ -431,6 +431,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-5">
+          <a>org.openqa.selenium.ElementClickInterceptedException:</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label for=&quot;showRichWorkspacesToggle&quot;&gt;...&lt;/label&gt; is not clickable at point (149, 637). Other element would receive the click: &lt;input id=&quot;webdavurl&quot; type=&quot;text&quot; readonly=&quot;readonly&quot; value=&quot;http://qa3.trycloud.net/remote.php/dav/files/User23/&quot;&gt;
+  (Session info: chrome=107.0.5304.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-587NUC6H', ip: '192.168.1.77', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.89, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\kylys\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63250}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ec4771ac09b4c2068bd8fb4d516fa35
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at com.tryCloud.steps_definitions.UpdateSettingsStepDef.the_user_should_be_able_to_click_any_buttons(UpdateSettingsStepDef.java:24)
+	at &#10045;.the user should be able to click any buttons(file:///C:/Users/kylys/OneDrive/Desktop/MavenProject/trycloudAutomation/src/test/resources/features/verifyUsersUpdateChanges.feature:13)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -450,7 +488,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-6">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -462,13 +500,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-6" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tryCloud.steps_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.208</span>
+  <span class="lead-duration duration">1.446</span>
 
           </div>
 
@@ -477,6 +515,21 @@ $(document).ready(function() {
 
 
 
+  <div class="embeddings inner-level">
+  <div class="embedding indention">
+    <div data-toggle="collapse" data-target="#embedding-7" class="collapsable-control">
+      <a>Verify users update settings</a>
+      <a href="embeddings/embedding_-1268676394.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-7" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_-1268676394.png">
+      </div>
+    </div>
+  </div>
+  </div>
 
         </div>
     </div>
@@ -496,67 +549,11 @@ $(document).ready(function() {
   <span class="lead-duration duration">0.000</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-6">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
 
 <div class="brief passed">
   <span class="keyword indention">Background</span>
   <span class="name">login to page</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-6" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-7">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-7" class="inner-level collapse collapsable-details ">
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_2149507997.html">@wip</a>
-</div>
-
-
-  <span class="lead-duration duration">11.480</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Verify users update settings</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -585,6 +582,62 @@ $(document).ready(function() {
   </div>
 
   <div id="steps-9" class="inner-level collapse collapsable-details ">
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_2149507997.html">@wip</a>
+</div>
+
+
+  <span class="lead-duration duration">12.236</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-10">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Verify users update settings</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-10" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-11">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-11" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -592,7 +645,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user on the login page</span>
 
-  <span class="lead-duration duration">3.496</span>
+  <span class="lead-duration duration">3.195</span>
 
 </div>
 
@@ -619,7 +672,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user use enter <span class="argument">&quot;User53&quot;</span> and enter <span class="argument">&quot;Userpass123&quot;</span></span>
 
-  <span class="lead-duration duration">5.411</span>
+  <span class="lead-duration duration">5.492</span>
 
 </div>
 
@@ -673,7 +726,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">the user clicks the <span class="argument">&quot;Files&quot;</span> module</span>
 
-  <span class="lead-duration duration">2.437</span>
+  <span class="lead-duration duration">3.361</span>
 
 </div>
 
@@ -700,7 +753,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks Settings on the left bottom corner</span>
 
-  <span class="lead-duration duration">0.075</span>
+  <span class="lead-duration duration">0.083</span>
 
 </div>
 
@@ -727,7 +780,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">the user should be able to click any buttons</span>
 
-  <span class="lead-duration duration">0.058</span>
+  <span class="lead-duration duration">0.104</span>
 
 </div>
 
@@ -754,7 +807,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-10">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-12">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -766,13 +819,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-10" class="inner-level collapse collapsable-details ">
+    <div id="after-12" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tryCloud.steps_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.182</span>
+  <span class="lead-duration duration">1.232</span>
 
           </div>
 
@@ -800,67 +853,11 @@ $(document).ready(function() {
   <span class="lead-duration duration">0.000</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
 
 <div class="brief passed">
   <span class="keyword indention">Background</span>
   <span class="name">login to page</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-11" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-12">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-12" class="inner-level collapse collapsable-details ">
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_2149507997.html">@wip</a>
-</div>
-
-
-  <span class="lead-duration duration">11.404</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Verify users update settings</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -889,6 +886,62 @@ $(document).ready(function() {
   </div>
 
   <div id="steps-14" class="inner-level collapse collapsable-details ">
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_2149507997.html">@wip</a>
+</div>
+
+
+  <span class="lead-duration duration">37.408</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-15">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Verify users update settings</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-15" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-16">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-16" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -896,7 +949,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user on the login page</span>
 
-  <span class="lead-duration duration">3.404</span>
+  <span class="lead-duration duration">3.517</span>
 
 </div>
 
@@ -923,7 +976,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user use enter <span class="argument">&quot;User83&quot;</span> and enter <span class="argument">&quot;Userpass123&quot;</span></span>
 
-  <span class="lead-duration duration">5.023</span>
+  <span class="lead-duration duration">10.280</span>
 
 </div>
 
@@ -950,7 +1003,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user on the dashboard page</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -977,7 +1030,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">the user clicks the <span class="argument">&quot;Files&quot;</span> module</span>
 
-  <span class="lead-duration duration">2.853</span>
+  <span class="lead-duration duration">23.447</span>
 
 </div>
 
@@ -1004,7 +1057,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks Settings on the left bottom corner</span>
 
-  <span class="lead-duration duration">0.068</span>
+  <span class="lead-duration duration">0.083</span>
 
 </div>
 
@@ -1031,7 +1084,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">the user should be able to click any buttons</span>
 
-  <span class="lead-duration duration">0.054</span>
+  <span class="lead-duration duration">0.078</span>
 
 </div>
 
@@ -1058,7 +1111,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-15">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-17">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1070,13 +1123,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-15" class="inner-level collapse collapsable-details ">
+    <div id="after-17" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tryCloud.steps_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.196</span>
+  <span class="lead-duration duration">1.299</span>
 
           </div>
 
@@ -1104,67 +1157,11 @@ $(document).ready(function() {
   <span class="lead-duration duration">0.000</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-16">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-18">
 
 <div class="brief passed">
   <span class="keyword indention">Background</span>
   <span class="name">login to page</span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-16" class="collapse collapsable-details ">
-
-
-
-
-
-<div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-17">
-
-<div class="brief passed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-
-
-     <i class="chevron fa fa-fw"></i>
-</div>
-
-  </div>
-
-  <div id="steps-17" class="inner-level collapse collapsable-details ">
-  </div>
-</div>
-
-
-
-
-
-  </div>
-</div>
-
-
-<div class="element">
-
-
-<div class="tags indention">
-    <b>Tags:</b>
-       <a href="report-tag_2149507997.html">@wip</a>
-</div>
-
-
-  <span class="lead-duration duration">10.911</span>
-
-
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-18">
-
-<div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Verify users update settings</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -1193,6 +1190,62 @@ $(document).ready(function() {
   </div>
 
   <div id="steps-19" class="inner-level collapse collapsable-details ">
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_2149507997.html">@wip</a>
+</div>
+
+
+  <span class="lead-duration duration">2:4.878</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-20">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Verify users update settings</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-20" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-21">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-21" class="inner-level collapse collapsable-details  in ">
       <div class="step">
 
 
@@ -1200,7 +1253,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">user on the login page</span>
 
-  <span class="lead-duration duration">2.926</span>
+  <span class="lead-duration duration">22.968</span>
 
 </div>
 
@@ -1227,7 +1280,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">user use enter <span class="argument">&quot;User113&quot;</span> and enter <span class="argument">&quot;Userpass123&quot;</span></span>
 
-  <span class="lead-duration duration">5.222</span>
+  <span class="lead-duration duration">1:18.382</span>
 
 </div>
 
@@ -1281,7 +1334,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">the user clicks the <span class="argument">&quot;Files&quot;</span> module</span>
 
-  <span class="lead-duration duration">2.641</span>
+  <span class="lead-duration duration">22.319</span>
 
 </div>
 
@@ -1308,7 +1361,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">user clicks Settings on the left bottom corner</span>
 
-  <span class="lead-duration duration">0.054</span>
+  <span class="lead-duration duration">0.083</span>
 
 </div>
 
@@ -1331,11 +1384,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then passed">
+<div class="brief step-name-Then failed">
   <span class="keyword indention">Then</span>
   <span class="name">the user should be able to click any buttons</span>
 
-  <span class="lead-duration duration">0.066</span>
+  <span class="lead-duration duration">1.123</span>
 
 </div>
 
@@ -1343,6 +1396,44 @@ $(document).ready(function() {
 
 
 
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-22">
+          <a>org.openqa.selenium.ElementClickInterceptedException:</a>
+      </div>
+      <div id="msg-22" class="collapse collapsable-details  in ">
+        <pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;label for=&quot;showRichWorkspacesToggle&quot;&gt;...&lt;/label&gt; is not clickable at point (149, 634). Other element would receive the click: &lt;input id=&quot;webdavurl&quot; type=&quot;text&quot; readonly=&quot;readonly&quot; value=&quot;http://qa3.trycloud.net/remote.php/dav/files/User113/&quot;&gt;
+  (Session info: chrome=107.0.5304.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-587NUC6H', ip: '192.168.1.77', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.89, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\kylys\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 641fe6db1624ca85ad2bf1e1cf176cf9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at com.tryCloud.steps_definitions.UpdateSettingsStepDef.the_user_should_be_able_to_click_any_buttons(UpdateSettingsStepDef.java:24)
+	at &#10045;.the user should be able to click any buttons(file:///C:/Users/kylys/OneDrive/Desktop/MavenProject/trycloudAutomation/src/test/resources/features/verifyUsersUpdateChanges.feature:13)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -1362,7 +1453,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-20">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-23">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1374,13 +1465,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-20" class="inner-level collapse collapsable-details ">
+    <div id="after-23" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tryCloud.steps_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.142</span>
+  <span class="lead-duration duration">1.683</span>
 
           </div>
 
@@ -1389,6 +1480,21 @@ $(document).ready(function() {
 
 
 
+  <div class="embeddings inner-level">
+  <div class="embedding indention">
+    <div data-toggle="collapse" data-target="#embedding-24" class="collapsable-control">
+      <a>Verify users update settings</a>
+      <a href="embeddings/embedding_728934574.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-24" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_728934574.png">
+      </div>
+    </div>
+  </div>
+  </div>
 
         </div>
     </div>
