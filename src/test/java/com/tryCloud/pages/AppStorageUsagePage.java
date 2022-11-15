@@ -20,8 +20,8 @@ public class AppStorageUsagePage {
     @FindBy(xpath = "//label[@class='menuitem']")
     public WebElement userUploadsFile;
 
-    @FindBy (xpath = "//span[@class='icon icon-add']")
-    public WebElement userRefreshPage;
+    @FindBy (xpath = "//input[@type='file']")
+    public WebElement waitTillLoaded;
 
     @FindBy(xpath = "//a[@class='icon-quota svg']")
     public WebElement userSeeStorageIncreased;
