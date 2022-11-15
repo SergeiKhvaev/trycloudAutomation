@@ -21,6 +21,9 @@ public class BasePageLogin {
     @FindBy(xpath = "//input[@id='submit-form']")
     public WebElement loginBtn;
 
+@FindBy(xpath = "//span[@aria-label='Magnify icon']")
+public WebElement magnifyBtn;
+
 
     // method to login, guys
     public void login (String username, String password){
