@@ -10,7 +10,7 @@ Feature: files managing verification
       | username  | password      |
       | "User23"  | "Userpass123" |
       | "User53"  | "Userpass123" |
-      | "User83"  | "Userpass123" |
+      | "User83"  | "Userpass123"  |
       | "User113" | "Userpass123" |
 
 
