@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.tryCloud.runners.CukesRunner
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.tryCloud.runners.CukesRunner
-com.tryCloud.runners.CukesRunner.initializationError  Time elapsed: 0.001 s  <<< ERROR!
-io.cucumber.core.gherkin.FeatureParserException: 
-Failed to parse resource at: file:///C:/Users/skhva/trycloudAutomation/src/test/resources/features/LoginWithValidCredentials.feature
-(14:7): inconsistent cell count within the table
-
